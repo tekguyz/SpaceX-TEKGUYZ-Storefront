@@ -28,7 +28,7 @@ export function PriceCounter() {
 
   return (
     <div ref={ref} className="flex flex-col">
-      <motion.span className="font-display font-extrabold text-[clamp(3rem,8vw,5.5rem)] text-[var(--color-text)] leading-none tracking-tight">
+      <motion.span className="font-display font-black text-[clamp(2.75rem,7vw,4.5rem)] text-[var(--color-text)] leading-none tracking-[0.06em] uppercase">
         {displayValue}
       </motion.span>
     </div>

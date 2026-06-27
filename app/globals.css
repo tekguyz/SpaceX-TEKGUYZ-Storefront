@@ -37,8 +37,8 @@
 
   /* Spacing and Constants */
   --section-padding-y: clamp(4rem, 8vw, 8rem);
-  --radius-card: 1rem;
-  --radius-button: 0.625rem;
+  --radius-card: var(--radius);
+  --radius-button: var(--radius);
 }
 
 :root {
